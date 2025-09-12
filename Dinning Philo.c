@@ -27,7 +27,7 @@ int main() {
             status[hu[i]] = 2;
         }
         do {
-            printf("\n1. One can eat at a time\n2. Two can eat at a time\n3. Exit\nEnter your choice: );
+            printf("\n1. One can eat at a time\n2. Two can eat at a time\n3. Exit\nEnter your choice:" );
             scanf("%d", &cho);
             switch (cho) {
                 case 1: one(); break;
