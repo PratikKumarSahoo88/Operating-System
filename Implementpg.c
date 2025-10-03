@@ -44,3 +44,15 @@ int main() {
 
     return 0;
 }
+
+/* output
+Enter number of pages: 4
+Enter page size: 100
+Enter page table (frame number for each page, -1 if not in memory):
+Page 0 -> Frame: 5
+Page 1 -> Frame: 9
+Page 2 -> Frame: -1
+Page 3 -> Frame: 7
+
+Enter a logical address: 250
+Page fault! Page 2 is not in memory. */
